@@ -1,0 +1,36 @@
+Soal 1: Menghitung Biaya Bahan Bakar & Konsumsi (Operasi Pembagian & Float)
+Cerita: Sebuah truk kurir pengiriman paket harus menempuh jarak total 325.5 kilometer untuk mengantar pesanan dalam sehari. Truk tersebut memiliki tingkat efisiensi bahan bakar rata-rata yaitu 8 kilometer per liter. Pemilik ingin mengetahui berapa liter bensin yang dihabiskan dalam sehari, lalu membulatkannya.
+
+Tugas Anda:
+
+Buat variabel jarak_km = 325.5 dan efisiensi_bensin = 8.0.
+
+Hitung total liter bensin yang dihabiskan dengan membagi jarak dengan efisiensi (jarak_km / efisiensi_bensin).
+
+Tampilkan berapa liter bensin yang dihabiskan (gunakan format angka desimal dengan 2 angka di belakang koma, contoh: :.2f).
+
+Soal 2: Estimasi Waktu Pengiriman & Sisa Jam (Operator Modulus / Sisa Bagi %)
+Cerita: Bagian logistik ingin memecah total waktu perjalanan pengiriman paket dalam bentuk menit ke dalam satuan jam dan menit. Misalkan total waktu perjalanan kurir adalah 435 menit.
+
+Tugas Anda:
+
+Buat variabel total_menit = 435.
+
+Gunakan operator pembagian bulat (//) untuk mencari total jam (total_menit // 60).
+
+Gunakan operator modulus (%) untuk mencari sisa menitnya (total_menit % 60).
+
+Cetak hasilnya dengan format kalimat yang jelas (Contoh: "Total waktu: X jam Y menit").
+
+Soal 3: Bonus Kinerja Kurir Berdasarkan Paket (Logika Angka & Konversi Rupiah)
+Cerita: Sebuah perusahaan ekspedisi memberikan bonus harian kepada kurir berdasarkan jumlah paket yang berhasil diantar. Jika kurir berhasil mengantar 42 paket, dan setiap paket mendapatkan insentif tetap sebesar Rp 3.500, serta ditambah bonus ekstra kerajinan sebesar Rp 50.000.
+
+Tugas Anda:
+
+Buat variabel jumlah_paket = 42, insentif_per_paket = 3500, dan bonus_ekstra = 50000.
+
+Hitung total insentif paket (jumlah_paket * insentif_per_paket).
+
+Hitung total pendapatan akhir kurir dengan menambahkan bonus ekstra ke total insentif paket tersebut.
+
+Cetak laporan pendapatan kurir lengkap dengan format mata uang Rupiah berpembatas titik (.) menggunakan teknik f-string dan .replace().

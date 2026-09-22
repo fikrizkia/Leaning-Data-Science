@@ -1,0 +1,17 @@
+Studi Kasus: Sistem Verifikasi Alamat Pengiriman Toko Online
+
+Cerita / Masalah:
+Anda bekerja sebagai seorang Data Analyst di sebuah perusahaan e-commerce. Tim logistik mengeluhkan bahwa data kota tujuan dari formulir pelanggan sangat berantakan (ada yang menggunakan huruf kecil, ada yang kelebihan spasi, dan ada yang format penulisannya tidak seragam).
+
+Tugas Anda adalah membuat program Python untuk:
+
+Membersihkan data teks kota yang kotor dari pelanggan.
+
+Menyeragamkan format hurufnya menjadi huruf kapital semua (uppercase).
+
+Menyajikan laporan akhir daftar kota tersebut dalam bentuk bullet points berabjad secara otomatis agar mudah dibaca oleh tim kurir.
+
+kota_pelanggan_1 = "   jakarta pusat "
+kota_pelanggan_2 = "bandung"
+kota_pelanggan_3 = "  SURABAYA BARAT  "
+kota_pelanggan_4 = "yogyakarta"

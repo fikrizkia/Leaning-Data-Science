@@ -1,0 +1,16 @@
+Soalan Nomor 1 
+Studi Kasus : Anda sedang membantu pemerintah daerah merancang sebuah taman kota baru. Taman tersebut direncanakan berbentuk persegi panjang dengan ukuran panjang 110,5 meter dan lebar 55,2 meter. Anda diminta menghitung berapa total luas area taman tersebut.
+
+
+Soalan Nomor 2
+Studi Kasus : Anda pergi ke pasar swalayan dan membeli 9 kg buah mangga. Harga per kilogram mangga tersebut adalah 1.49. Anda menyerahkan uang kasir sebesar 20 untuk pembayaran. Buatlah program untuk menghitung sisa uang kembalian Anda.
+
+
+Soalan Nomor 3
+Studi Kasus : Anda ingin mendekorasi ulang ruang tamu dengan memasang karpet baru berbentuk persegi. Panjang sisi ruangan tersebut adalah 150 cm. Jika harga karpet per sentimeter persegi adalah 3.50, hitunglah total biaya yang harus Anda bayarkan dengan format laporan keuangan yang rapi.
+
+
+
+Soalan Nomor 4
+Studi Kasus : Dalam sistem manajemen data logistik, setiap barang harus diterjemahkan ke dalam kode biner agar bisa dibaca oleh sistem komputer tingkat rendah. Anda ditugaskan untuk mengubah nomor ID produk desimal yaitu 150 menjadi bentuk representasi biner murni.
+
