@@ -1,19 +1,32 @@
+#Jawaban Soalan Nomor 1
 import string
 
-kota_pelanggan_1 = "   jakarta pusat "
-kota_pelanggan_2 = "bandung"
-kota_pelanggan_3 = "  SURABAYA BARAT  "
-kota_pelanggan_4 = "yogyakarta"
+raw_data = "   22-Sept-2026_TOTTY COFFEE_  cappuccino   _Rp35.000,-   "
+cleaned_data = raw_data.strip().replace("_", "|").replace("_", "|").replace("_", "|").replace("Rp", " ").replace(",-", " ").upper()
 
-# Menghapus spasi di awal dan akhir string
-bersih_kota_1 = kota_pelanggan_1.strip().upper()
-bersih_kota_2 = kota_pelanggan_2.strip().upper()
-bersih_kota_3 = kota_pelanggan_3.strip().upper()
-bersih_kota_4 = kota_pelanggan_4.strip().upper()
+cleaned_data = cleaned_data.replace("  ", "")
 
-# Menggabungkan semua kota 
-kota_dituju = [bersih_kota_1, bersih_kota_2, bersih_kota_3, bersih_kota_4]
+print(cleaned_data)
 
-print("Daftar kota tujuan pelanggan:")
-for huruf, kota in zip(string.ascii_uppercase, kota_dituju):
-    print(f"{huruf}. {kota}")
+#Jawaban Soalan Nomor 2
+import string
+
+username = "  Data_Science_Pro  "
+kampus = " Universitas muhammadiyah yogyakarta "
+
+username_cleaned = username.strip().replace("_", "-").title()
+kampus_cleaned = kampus.strip().replace(" ", "-").title()
+
+gabungan_kalimat= username_cleaned + kampus_cleaned
+
+print(gabungan_kalimat)
+
+#Jawaban Soalan Nomor 3
+import string
+
+Data_mentah_scrapping = "   [makan_malam] >>> ayam geprek agas ::: 650 KALORI  "
+
+cleaned_data_scrapping = Data_mentah_scrapping.strip().replace("[", "").replace("]", "").replace(">>>", ":").replace(":::", "").replace("650", "").replace("KALORI", "(650 kalori)").upper()
+cleaned_data_scrapping = cleaned_data_scrapping.replace("  ", "")
+
+print(cleaned_data_scrapping)

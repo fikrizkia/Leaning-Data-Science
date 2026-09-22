@@ -1,17 +1,35 @@
-Studi Kasus: Sistem Verifikasi Alamat Pengiriman Toko Online
+Studi Kasus 1: Standardisasi Log Transaksi Point of Sales (POS)
 
-Cerita / Masalah:
-Anda bekerja sebagai seorang Data Analyst di sebuah perusahaan e-commerce. Tim logistik mengeluhkan bahwa data kota tujuan dari formulir pelanggan sangat berantakan (ada yang menggunakan huruf kecil, ada yang kelebihan spasi, dan ada yang format penulisannya tidak seragam).
+Konteks:
+Sistem kasir (POS) di sebuah kedai kopi mengalami bug, sehingga mencetak riwayat transaksi harian ke dalam satu baris teks dengan format pembatas yang acak dan spasi yang tidak beraturan. Sebelum data ini bisa dimasukkan ke dalam model analitik atau diubah menjadi format CSV, Anda harus merapikan pembatasnya dan membersihkan elemen harga dari simbol mata uang.
 
-Tugas Anda adalah membuat program Python untuk:
+data input :
+log_kasir = "   22-Sept-2026_TOTTY COFFEE_  cappuccino   _Rp35.0  jnnmmn 
+00,-   "
 
-Membersihkan data teks kota yang kotor dari pelanggan.
+output yang diharapkan:
+"22-SEPT-2026 | TOTTY COFFEE | CAPPUCCINO | 35000"
 
-Menyeragamkan format hurufnya menjadi huruf kapital semua (uppercase).
+Studi Kasus 2: Pembuatan URL Slug untuk Profil Pengguna
 
-Menyajikan laporan akhir daftar kota tersebut dalam bentuk bullet points berabjad secara otomatis agar mudah dibaca oleh tim kurir.
+Konteks:
+Dalam pengembangan aplikasi web, data profil pengguna sering kali digunakan untuk membuat tautan URL publik yang unik (disebut URL Slug). URL yang valid umumnya tidak boleh mengandung huruf kapital, spasi, atau karakter khusus seperti garis bawah (_). Tanda pemisah yang menjadi standar SEO (Search Engine Optimization) adalah tanda hubung (-).
 
-kota_pelanggan_1 = "   jakarta pusat "
-kota_pelanggan_2 = "bandung"
-kota_pelanggan_3 = "  SURABAYA BARAT  "
-kota_pelanggan_4 = "yogyakarta"
+data input :
+username = "  Data_Science_Pro  "
+kampus = " Universitas muhammadiyah yogyakarta "
+
+output yang diharapkan :
+"data-science-pro-universitas-muhammadiyah-yogyakarta"
+
+Studi Kasus 3 : Pembersihan Teks Hasil Web Scraping
+
+Konteks:
+Anda sedang mengumpulkan data dari platform aplikasi pencatat kalori makanan. Teks hasil tarikan data (scraping) masih mentah, dipenuhi dengan simbol-simbol navigasi kode (>>>, :::), dan kapitalisasinya sangat berantakan. Tugas Anda adalah memformat ulang string tersebut menjadi bentuk laporan kalimat yang human-readable (mudah dibaca manusia).
+
+data input :
+teks_mentah = "   [makan_malam] >>> ayam geprek agas ::: 650 KALORI  "
+
+output yang diharapkan :
+"Makan Malam: Ayam Geprek Agas (650 Kalori)"
+
