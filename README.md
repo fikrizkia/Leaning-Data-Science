@@ -23,6 +23,6 @@ To build a strong foundation in Data Science through consistent practice, docume
 | Date | Topic/Module | Key Takeaways | 
 | ----- | ----- | ----- | 
 | **Sept 2026** | Python Basics | String manipulation, Data cleaning logic, Variables | 
-| **[Month Year]** | [Topic] | [Notes] | 
+| **[SOON]** | [SOON] | [SOON] | 
 
 *“Data is the new oil, but it needs to be refined.”*
