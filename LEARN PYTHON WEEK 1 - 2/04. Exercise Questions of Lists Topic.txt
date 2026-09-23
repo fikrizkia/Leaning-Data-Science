@@ -1,0 +1,55 @@
+Kasus Latihan: Sistem Mesin Cuci di Washpro Laundry
+
+Skenario: Kamu sedang diminta merancang program antrean mesin cuci otomatis untuk Washpro Laundry. Daftar pakaian pelanggan yang menunggu giliran disimpan di dalam sebuah list. Pakaian di urutan paling atas (indeks 0) adalah pakaian yang saat ini sedang berputar di dalam mesin cuci.
+
+Kode Awal:
+
+Python
+antrean_cucian = ["Baju Harian", "Celana Jeans", "Selimut"]
+cucian_tambahan = ["Jaket", "Sprei"]
+Tugasmu:
+
+Ada pelanggan layanan Express yang meminta agar "Seragam Kerja" miliknya dicuci secepat mungkin. Program harus menyisipkan "Seragam Kerja" ini tepat setelah pakaian yang saat ini sedang dicuci. Masukkan ke urutan kedua.
+
+Petugas laundry membawa satu keranjang cucian_tambahan. Gabungkan seluruh isi list cucian_tambahan tersebut ke dalam antrean_cucian utama.
+
+Mesin cuci berbunyi tanda "Baju Harian" (cucian pertama) sudah selesai! Perbarui variabel antrean_cucian dengan membuang cucian pertama tersebut menggunakan teknik slicing yang sudah kamu kuasai.
+
+Cek apakah "Jaket" saat ini masih berada di dalam daftar antrean, lalu cetak hasilnya (True/False) ke layar.
+
+Terakhir, cetak isi antrean_cucian yang paling baru untuk memastikan urutannya sudah benar.
+
+Kasus 2: Data Cleansing & Pipeline (Machine Learning)
+Skenario: Dalam Data Science, data mentah yang ditarik dari server seringkali kotor (mengandung metadata atau eror di awal/akhir). Kamu harus membersihkannya (cleansing) sebelum digabungkan.
+
+Kode Awal:
+
+Python
+batch_1 = ["<HEADER_API>", "Data_A", "Data_B", "Data_C", "<FOOTER_API>"]
+batch_2 = ["Data_D", "Data_E", "<ERROR_TIMEOUT>"]
+Tugasmu:
+
+Buat variabel clean_1. Isinya adalah batch_1 yang sudah dibuang <HEADER_API> dan <FOOTER_API>-nya menggunakan teknik slicing.
+
+Buat variabel clean_2. Isinya adalah batch_2 yang membuang elemen terakhirnya (<ERROR_TIMEOUT>) menggunakan slicing dan indeks negatif (agar dinamis jika panjang data berubah).
+
+Gabungkan clean_1 dan clean_2 menjadi variabel baru bernama dataset_final.
+
+Sistem mengharuskan sebuah data kalibrasi, yaitu "Data_Kalibrasi", disisipkan tepat di tengah-tengah dataset_final (di antara "Data_C" dan "Data_D").
+
+Cetak panjang total dataset_final untuk memastikan sistem menerima jumlah data yang benar.
+
+Kasus 3: Fitur "Undo" pada Text Editor (Stack Implementation)
+Skenario: Kamu membuat aplikasi seperti Microsoft Word. Setiap aksi pengetikan yang dilakukan user disimpan di dalam list sebagai sebuah history (riwayat). Saat user menekan tombol Undo (Ctrl+Z), aksi terakhir harus dibatalkan/dihapus.
+
+Kode Awal:
+
+Python
+riwayat_aksi = ["Ketik 'Halo'", "Ketik 'Dunia'", "Format 'Bold'"]
+Tugasmu:
+
+User menekan tombol Undo satu kali. Perbarui list riwayat_aksi agar membuang elemen paling akhir (seolah-olah aksi terakhir dibatalkan). Clue: Timpa variabel riwayat_aksi menggunakan slicing dari awal hingga sebelum elemen terakhir.
+
+User kemudian mengetik hal baru. Tambahkan string "Ketik 'Python'" ke dalam riwayat.
+
+Aplikasi memiliki fitur widget "History Preview" yang hanya menampilkan 2 aksi paling terakhir. Gunakan slicing dengan indeks negatif untuk mengambil 2 elemen terakhir dari list tersebut dan cetak hasilnya.
