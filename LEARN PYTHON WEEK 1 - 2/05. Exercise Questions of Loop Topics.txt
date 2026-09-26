@@ -1,0 +1,28 @@
+Soal 1: Menghitung Total (Logika Akumulator)
+Skenario: Kamu sedang menghitung total berat pakaian kotor yang kamu cuci di Gula Jawa Laundry selama sebulan terakhir. Setiap kali laundry, kasir mencatat beratnya (dalam kilogram).
+Kode Awal:
+
+berat_cucian = [3, 2, 5, 2] # Berat cucian dalam kg
+
+Buatlah keranjang kosong bernama total_berat. Gunakan For Loop biasa untuk menjumlahkan semua angka di dalam berat_cucian ke dalam total_berat. Setelah loop selesai, cetak hasil total_berat ke layar!
+
+Soal 2: Membuat Nomor Urut (Logika range dan len)
+
+Skenario: Kamu baru saja menghubungkan headphone Soundcore milikmu ke HP. Kamu ingin sistem menampilkan daftar putar (playlist) lagu di layar lengkap dengan nomor urutnya agar rapi.
+Kode Awal:
+playlist_lagu = ["Fix You", "Yellow", "Sparks", "Viva La Vida"]
+Gunakan For Loop dengan range(len()). Di dalamnya, buat variabel nomor urut (yang dimulai dari 1), lalu ambil teks nama lagunya. Cetak dengan format: Lagu ke- 1 : Fix You
+
+Soal 3: Menyaring Data (Logika if, continue, break)
+Skenario: Kamu sedang membuat program untuk mesin scan tiket otomatis di pintu masuk bioskop CGV. Mesin akan membaca kode tiket pengunjung yang mengantre.
+
+Kode Awal:
+antrean_tiket = ["Reguler", "Refund", "VIP", "Tiket Palsu", "Reguler"]
+
+Gunakan For Loop untuk mengecek antrean_tiket satu per satu.
+
+JIKA tiket == "Refund": Cetak "Tiket sudah dikembalikan, lewati." lalu gunakan perintah skip/lewati.
+
+JIKA tiket == "Tiket Palsu": Cetak "BAHAYA: Penyusup terdeteksi! Sistem dimatikan." lalu gunakan perintah berhenti total.
+
+SELAIN ITU (Else): Cetak "Silakan masuk, tiket Anda:" digabung dengan nama tiket.
