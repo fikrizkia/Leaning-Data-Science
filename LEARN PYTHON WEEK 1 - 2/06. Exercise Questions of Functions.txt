@@ -1,0 +1,58 @@
+Soal 1: 
+Mesin Kasir Kopi (Fungsi Dasar + Return)
+Skenario: Kamu sedang membuat mesin kasir untuk Nostra Coffee. Mesin ini tugasnya sederhana: mengalikan harga satu gelas kopi dengan jumlah gelas yang dipesan, lalu menyerahkan total harganya.
+
+Kode Awal :
+
+# 1. Buat mesinnya di sini
+def kasir_nostra(harga_per_gelas, jumlah_pesanan):
+    # Buat variabel total_harga = harga_per_gelas dikali jumlah_pesanan
+    # Kembalikan (return) total_harga
+    
+# 2. Pakai mesinnya di bawah sini
+# Panggil kasir_nostra dengan harga 25000 dan jumlah 3. Simpan di variabel 'tagihan'
+# Cetak: print("Total bayar Nostra Coffee: Rp", tagihan)
+
+Soal 2 :
+Mesin Pengecek Saldo Steam (Fungsi + If-Else)
+Skenario: Sebelum sistem Steam mengizinkanmu men-download Devil May Cry 5, mesin harus mengecek apakah uang di Steam Wallet-mu cukup. Jika mesin digabungkan dengan if-else, ia bisa menyerahkan hasil berupa teks keputusan.
+
+Kode Awal :
+# 1. Buat mesinnya di sini
+def cek_pembelian_game(harga_game, saldo_wallet):
+    # JIKA saldo_wallet lebih besar atau sama dengan (>=) harga_game:
+        # return "Berhasil Beli"
+    # SELAIN ITU (else):
+        # return "Saldo Kurang"
+
+# 2. Pakai mesinnya di bawah sini
+saldo_saya = 400000
+harga_dmc5 = 350000
+
+# Panggil fungsi cek_pembelian_game, masukkan harga_dmc5 dan saldo_saya
+# Tangkap hasilnya ke variabel 'status_pembelian'
+# Cetak: print("Status Transaksi:", status_pembelian)
+
+Soal 3: Mesin Perekap Pengeluaran (Fungsi + For Loop)
+(Tantangan Final: Menggabungkan Loop dan Function!)
+
+Skenario: Kamu ingin membuat satu mesin canggih. Jika kamu memasukkan sebuah list berisi struk makan di Warmindo ke dalam mesin ini, mesin akan otomatis melakukan looping, menjumlahkan semuanya, dan memuntahkan total akhirnya.
+
+Kode Awal:
+# 1. Buat mesinnya di sini
+def rekap_pengeluaran(list_struk):
+    # Siapkan keranjang kosong (total = 0)
+    
+    # Buat For Loop untuk mengambil data dari list_struk
+        # Tambahkan isinya ke dalam keranjang
+        
+    # Jika loop SUDAH SELESAI (sejajar dengan kata 'for'), return totalnya
+    
+
+# 2. Pakai mesinnya di bawah sini
+struk_warmindo = [15000, 12000, 18000, 20000]
+
+# Panggil rekap_pengeluaran dengan memasukkan struk_warmindo ke dalamnya
+# Simpan hasilnya di variabel 'total_minggu_ini'
+# Cetak: print("Total jajan Warmindo minggu ini: Rp", total_minggu_ini)
+
